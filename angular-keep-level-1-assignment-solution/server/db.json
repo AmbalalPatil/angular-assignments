@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "title": "Create Demo Angular 5 app",
+      "text": "shall do at 5 pm",
+      "id": 2
+    }
+  ]
+}

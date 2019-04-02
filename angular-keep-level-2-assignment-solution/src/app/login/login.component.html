@@ -1,0 +1,13 @@
+<div>
+    <form (ngSubmit)="loginSubmit()">
+        <label>Username:</label>
+        <input type="text" id="username" class="username" placeholder="Username" [formControl]="username">
+        <br/><br/>
+        <label>Password:</label>
+        <input type="password" id="password" class="password" placeholder="Password" [formControl]="password">
+        <br/><br/>
+        <button type="submit">Submit</button>
+        <br/>
+        <strong class="error-message" *ngIf="submitMessage">{{submitMessage}}</strong>
+    </form>
+</div>

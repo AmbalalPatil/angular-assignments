@@ -1,0 +1,6 @@
+<mat-toolbar color="primary">Keep
+	<div class="keep-c-toggle-view">
+		<i *ngIf="isNoteView" class="material-icons switchToListView" (click)="switchToListView()" routerLink="/dashboard/view/listview" routerLinkActive="active">view_list</i>
+		<i *ngIf="!isNoteView" class="material-icons switchToNoteView" (click)="switchToNoteView()" routerLink="/dashboard/view/noteview" routerLinkActive="active">view_quilt</i>
+	</div>
+</mat-toolbar>

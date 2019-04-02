@@ -1,0 +1,5 @@
+<mat-card (click)="redirectToEditNote()">
+    <mat-card-title>{{note.noteTitle}}</mat-card-title>
+    <mat-card-content>{{note.noteContent}}</mat-card-content>
+    <mat-card-content *ngIf="note.category">Category: {{note.category.categoryName}}</mat-card-content>
+</mat-card>

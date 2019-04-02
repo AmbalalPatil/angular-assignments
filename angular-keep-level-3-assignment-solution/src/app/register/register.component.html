@@ -1,0 +1,35 @@
+<div class="register-container">
+  <form (ngSubmit)="registerSubmit()">
+      <h2>Register</h2>
+      <div>
+          <label>Username:</label>
+          <input type="text" id="username" class="username" placeholder="Username" [formControl]="username">
+      </div>
+      <br/>
+      <div>        
+          <label>Password:</label>
+          <input type="password" id="password" class="password" placeholder="Password" [formControl]="password">
+      </div>
+      <br/>
+      <div>
+          <label>FirstName:</label>
+          <input type="text" id="firstName" class="firstName" placeholder="FirstName" [formControl]="firstName">
+      </div>
+      <br/>
+      <div>
+          <label>LastName:</label>
+          <input type="text" id="lastName" class="lastName" placeholder="LastName" [formControl]="lastName">
+      </div>
+      <br/>
+      <div>
+          <label>UserRole:</label>
+          <input type="text" id="userRole" class="userRole" placeholder="UserRole" [formControl]="userRole">
+      </div>
+      <br/>
+      <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <br/>
+      <strong class="error-message" *ngIf="submitMessage">{{submitMessage}}</strong>
+  </form>
+</div>

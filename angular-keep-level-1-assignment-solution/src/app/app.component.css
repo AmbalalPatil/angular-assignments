@@ -1,0 +1,20 @@
+.note-taker-panel{
+    width: 50vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.note-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.done-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note-container{
+    display: flex;
+    margin: 20px;
+}
